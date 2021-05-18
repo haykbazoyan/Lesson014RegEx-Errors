@@ -140,10 +140,11 @@ let regEx = /(\d+)x(\d+)/;
 test(regEx, match1, match2, match3);
 */
 // Lesson 14: It's all conditional
-
+/*
 let match1 = "I love cats";
 let match2 = "I love dogs";
 let match3 = "I love mouse";
 let regEx = /I love *(cats|dogs)/;
 
 test(regEx, match1, match2, match3);
+*/
