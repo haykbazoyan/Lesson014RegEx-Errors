@@ -3,7 +3,6 @@ function gradeLabs(labs) {
     let lab = labs[i];
 
     try {
-      lab.hasOwnProperty("runLab");
       let result = lab.runLab(3);
       console.log(`${lab.student} code worked: ${result === 27}`);
     } catch (error) {
